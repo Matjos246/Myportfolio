@@ -1,0 +1,156 @@
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    color: #3a3535;
+    background:rgb(197, 197, 150);
+    text-decoration: none;
+    /* background-color:gainsboro; */
+
+}
+.container{
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+}
+.container a{
+  padding: 0;
+  margin: 0;
+}
+.container a logo{
+    padding: 0;
+    margin: 0;
+  }
+.header{
+    background: #4d2e2e;
+    color: #fff;
+    padding: 10px 0;
+    position: sticky;
+    top: 0;
+    z-index:1000;
+    
+}
+.header a{
+    font-size: 24px;
+    font-weight: ;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-around;
+}
+.navbar a{
+    color: #fff;
+    text-decoration:none;
+    padding: 0px;
+   
+}
+.navbar a:hover{
+    color: wheat;
+}
+.hero {
+    text-align: center;
+    padding: 50px 20px;
+}
+.hero .btn{
+    background: #333;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration:none;
+    border-radius:10px;
+}
+.hero .btn:hover{
+    background-color:#5a5151;
+}
+.about{
+    background:#fff;
+    padding: 50px 20px;
+    text-align: center;
+}
+.about h2{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.about h2:hover{
+    text-decoration: underline;
+}
+.skills ul{
+    list-style: none;
+    padding: 0;
+}
+.skills li{
+    background: #f4f4f4;
+    padding: 50px 20px;
+    margin: 10px 0;
+    border-radius: 50px;
+}
+.projects{
+    background:rgb(197, 197, 150);
+    padding: 50px 20px;
+    text-align: center;
+
+}
+.projects h2{
+    color: beige;
+}
+.projects h2:hover{
+    color:#4d2e2e;
+}
+
+.project-grid{
+    display: grid;
+    /* grid-template-columns:repeat(auto-fit,minmax(300px 1fr)); */
+    gap: 20px;
+    
+}
+.project-card{
+    background: #f4f4f4;
+    padding: 20px;
+    border-radius: 10px;
+}
+.project-card h3{
+    margin: 0  0 13px;
+    color: rgb(182, 115, 115);
+}
+.project-card h3:hover{
+text-decoration:underline;
+color:burlywood;
+}
+.project-card a{
+    color: #5c2c2c;
+    text-decoration: none;
+}
+.project-card a:hover{
+    text-decoration:underline ;
+}
+.contact form{
+    max-width: 100px;
+    margin: auto;
+    text-align: center;
+}
+.contact input, 
+.contact textarea,
+.contact button{
+    width: 100%;
+    padding:10px;
+    margin:10px 0;
+    border: 3px solid #ccc;
+    border-radius:7px;
+}
+.contact button:hover{
+    background: #555;
+}
+.Social{
+  
+  
+    padding:20px;
+    width:1px;
+   
+  
+}
+.footer{
+    text-align:right;
+    color: #5c2c2c;
+    padding: 10px 0;
+}
