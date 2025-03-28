@@ -5,7 +5,8 @@ body {
     padding: 0;
     line-height: 1.6;
     color: #3a3535;
-    background:rgb(197, 197, 150);
+    background:linear-gradient(rgb(197, 197, 150),rgb(153, 123, 68));
+     /* background:linear-gradient(brown,purple); */
     text-decoration: none;
     /* background-color:gainsboro; */
 
@@ -34,7 +35,7 @@ body {
 }
 .header a{
     font-size: 24px;
-    font-weight: ;
+  
 }
 
 .navbar{
