@@ -8,12 +8,12 @@ body {
     background:linear-gradient(rgb(197, 197, 150),rgb(153, 123, 68));
      /* background:linear-gradient(brown,purple); */
     text-decoration: none;
-    /* background-color:gainsboro; */
+    
 
-}
+  }
 .container{
     width: 100%;
-    max-width: 1200px;
+    max-width: 100%;
     margin: auto;
 }
 .container a{
@@ -31,6 +31,7 @@ body {
     position: sticky;
     top: 0;
     z-index:1000;
+    width:100%;
     
 }
 .header a{
@@ -143,12 +144,8 @@ color:burlywood;
     background: #555;
 }
 .Social{
-  
-  
     padding:20px;
     width:1px;
-   
-  
 }
 .footer{
     text-align:right;
